@@ -34,4 +34,37 @@ Landing page ini terdiri dari enam komponen utama sesuai dengan ketentuan tugas:
 - **Remix Icon** (untuk ikon)
 - Tidak menggunakan framework JavaScript tambahan.
 
---
+---
+
+## Tampilan Website
+
+Berikut adalah hasil tampilan dari setiap bagian website **WebStart Studio**:
+
+---
+
+### Header / Navigation, Hero Section, dan Features Section
+Tampilan bagian atas website yang terdiri dari navigasi, banner utama, dan fitur unggulan.
+
+![Tampilan Header, Hero, dan Features](<img width="1919" height="872" alt="1" src="https://github.com/user-attachments/assets/1ffe6910-6364-44f3-99f7-7ef39c35ab9d" />
+g)
+
+---
+
+### 🏢 About Section
+Menampilkan profil singkat perusahaan WebStart Studio, termasuk deskripsi dan ilustrasi visual.
+
+![Tampilan About Section](Tampilan%20Website%20Webstart/2.png)
+
+---
+
+### ✉️ Contact Form dan Footer
+Bagian akhir halaman yang berisi formulir kontak dan footer dengan tautan media sosial.
+
+![Tampilan Contact dan Footer](Tampilan%20Website%20Webstart/3.png)
+
+---
+
+> Semua tampilan dirancang menggunakan **Tailwind CSS** dengan tema warna utama biru toska `#00B8D9` dan aksen pink lembut `#FF66B3` agar terlihat modern dan profesional.
+
+
+
