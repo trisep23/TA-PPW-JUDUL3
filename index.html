@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebStart Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Lato', sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <header class="shadow-md">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-[#0A192F]">WebStart<span class="text-[#00B8D9]">Studio</span></h1>
+      <ul class="hidden md:flex space-x-6 font-medium">
+        <li><a href="#home" class="hover:text-[#00B8D9]">Home</a></li>
+        <li><a href="#features" class="hover:text-[#00B8D9]">Features</a></li>
+        <li><a href="#about" class="hover:text-[#00B8D9]">About</a></li>
+        <li><a href="#contact" class="hover:text-[#00B8D9]">Contact</a></li>
+      </ul>
+      <button class="md:hidden text-[#0A192F] focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <section id="home" class="text-center py-20 bg-gradient-to-r from-[#00B8D9] to-[#FF66B3] text-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold mb-4">Bangun Website Profesional, Mulai dari <span class="text-[#0A192F]">WebStart</span></h2>
+      <p class="text-lg mb-6">Kami bantu bisnis Anda tampil percaya diri di dunia digital melalui website yang modern dan responsif.</p>
+      <a href="#contact" class="bg-white text-[#0A192F] font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition">Contact Us</a>
+    </div>
+  </section>
+
+  <section id="features" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold text-[#0A192F] mb-10">Our Features</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+          <div class="feature-icon w-16 h-16 bg-[#00B8D9] rounded-full flex items-center justify-center mx-auto mb-4 text-white text-3xl">
+            <i class="ri-smartphone-line"></i>
+          </div>
+          <h4 class="font-semibold text-xl mb-2">Desain Responsif</h4>
+          <p>Website tampil sempurna di semua perangkat — dari ponsel hingga desktop.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+          <div class="feature-icon w-16 h-16 bg-[#FF66B3] rounded-full flex items-center justify-center mx-auto mb-4 text-white text-3xl">
+            <i class="ri-palette-line"></i>
+          </div>
+          <h4 class="font-semibold text-xl mb-2">Kustomisasi Penuh</h4>
+          <p>Desain fleksibel yang disesuaikan dengan karakter dan kebutuhan bisnis Anda.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+          <div class="feature-icon w-16 h-16 bg-[#0A192F] rounded-full flex items-center justify-center mx-auto mb-4 text-white text-3xl">
+            <i class="ri-shield-check-line"></i>
+          </div>
+          <h4 class="font-semibold text-xl mb-2">Keamanan Terjamin</h4>
+          <p>Data dan sistem Anda kami lindungi dengan keamanan tingkat tinggi.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-8 md:px-12 grid md:grid-cols-2 items-center gap-10">
+    <div class="flex justify-center md:justify-end">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906343.png" 
+           alt="About WebStart" 
+           class="w-64 md:w-72">
+    </div>
+    <div>
+      <h3 class="text-3xl font-bold text-[#0A192F] mb-4">About Us</h3>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        WebStart Studio adalah perusahaan yang bergerak di bidang jasa pembuatan website profesional.
+        Kami berdedikasi membantu bisnis, startup, dan profesional membangun kehadiran digital yang kuat
+        dengan desain elegan, fungsional, dan cepat.
+      </p>
+    </div>
+  </div>
+  </section>
+
+  <section id="contact" class="py-16 bg-gray-50">
+  <div class="max-w-3xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center text-[#0A192F] mb-10">Contact Us</h3>
+    <form class="bg-white shadow-md rounded-lg p-6">
+      <div class="mb-4">
+        <label for="name" class="block font-medium mb-1">Nama</label>
+        <input type="text" id="name" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#00B8D9]" required>
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block font-medium mb-1">Email</label>
+        <input type="email" id="email" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#00B8D9]" required>
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block font-medium mb-1">Pesan</label>
+        <textarea id="message" rows="4" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#00B8D9]" required></textarea>
+      </div>
+      <button type="submit" class="w-full bg-[#00B8D9] text-white py-2 rounded-md hover:bg-[#0A192F] transition font-semibold">Kirim</button>
+    </form>
+  </div>
+  </section>
+  
+  <footer class="bg-[#0A192F] text-white text-center py-6">
+  <p>&copy; 2025 WebStart Studio. All rights reserved.</p>
+  <div class="mt-3 flex justify-center space-x-6">
+    <a href="https://www.instagram.com/trsanily?igsh=djU5OGlwcDhndmpj"
+       target="_blank"
+       class="text-[#00B8D9] hover:text-[#FF66B3] transition duration-200 font-medium">
+       Instagram
+    </a>
+    <a href="https://linkedin.com/in/tri-septiani-a73a57293"
+       target="_blank"
+       class="text-[#00B8D9] hover:text-[#FF66B3] transition duration-200 font-medium">
+       LinkedIn
+    </a>
+    <a href="https://github.com/trisep23"
+       target="_blank"
+       class="text-[#00B8D9] hover:text-[#FF66B3] transition duration-200 font-medium">
+       GitHub
+    </a>
+  </div>
+  </footer>
+</body>
+</html>
