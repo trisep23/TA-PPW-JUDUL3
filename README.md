@@ -49,14 +49,14 @@ Tampilan bagian atas website yang terdiri dari navigasi, banner utama, dan fitur
 
 ---
 
-### 🏢 About Section
+### About Section
 Menampilkan profil singkat perusahaan WebStart Studio, termasuk deskripsi dan ilustrasi visual.
 
 ![Tampilan About Section](Tampilan%20Website%20Webstart/2.png)
 
 ---
 
-### ✉️ Contact Form dan Footer
+### Contact Form dan Footer
 Bagian akhir halaman yang berisi formulir kontak dan footer dengan tautan media sosial.
 
 ![Tampilan Contact dan Footer](Tampilan%20Website%20Webstart/3.png)
