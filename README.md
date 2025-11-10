@@ -1,7 +1,7 @@
 # WebStart Studio
 
 Landing page responsif untuk **perusahaan teknologi** yang menyediakan jasa pembuatan website profesional.  
-Dibangun menggunakan **Tailwind CSS** dan **Font Awesome** untuk tampilan modern, bersih, dan responsif.
+Dibangun menggunakan **Tailwind CSS** untuk tampilan modern, bersih, dan responsif.
 
 ---
 ## Dibuat Oleh : 
