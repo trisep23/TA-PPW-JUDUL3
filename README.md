@@ -63,7 +63,5 @@ Bagian akhir halaman yang berisi formulir kontak dan footer dengan tautan media 
 
 ---
 
-> Semua tampilan dirancang menggunakan **Tailwind CSS** dengan tema warna utama biru toska `#00B8D9` dan aksen pink lembut `#FF66B3` agar terlihat modern dan profesional.
-
 
 
