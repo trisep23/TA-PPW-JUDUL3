@@ -45,8 +45,7 @@ Berikut adalah hasil tampilan dari setiap bagian website **WebStart Studio**:
 ### Header / Navigation, Hero Section, dan Features Section
 Tampilan bagian atas website yang terdiri dari navigasi, banner utama, dan fitur unggulan.
 
-![Tampilan Header, Hero, dan Features](<img width="1919" height="872" alt="1" src="https://github.com/user-attachments/assets/1ffe6910-6364-44f3-99f7-7ef39c35ab9d" />
-g)
+![Tampilan Header, Hero, dan Features](Tampilan%20Website%20Webstart/1.png)
 
 ---
 
