@@ -50,7 +50,7 @@ Tampilan bagian atas website yang terdiri dari navigasi, banner utama, dan fitur
 ---
 
 ### About Section
-Menampilkan profil singkat perusahaan WebStart Studio, termasuk deskripsi dan ilustrasi visual.
+Menampilkan profil singkat perusahaan WebStart Studio, termasuk deskripsi.
 
 ![Tampilan About Section](Tampilan%20Website%20Webstart/2.png)
 
